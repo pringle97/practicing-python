@@ -1,9 +1,8 @@
-def school_age_calculator(age,name):
-  if age < 5:
-    print("enoyoy", name, "is only", age)
-  elif age == 5:
-    print("enjoy school,",  name)
-  else:
-    print("they grow up so fast")
+#function that adds ten from inputted number in variable below
+def add_ten_to_age(age):
+  new_age = age + 10
+  return new_age
 
-school_age_calculator(3, "Thomas")
+#variable that is assigned the value for passing through the age to add 10
+How_Old_Will_I_Be = add_ten_to_age(3)
+print(How_Old_Will_I_Be)
